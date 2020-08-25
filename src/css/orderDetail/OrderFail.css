@@ -1,0 +1,83 @@
+.OrderFail-body {
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.OrderFail-header {
+  background-color: #00A9AF;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 50px;
+  height: 50px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#OrderFail-basicInfo .ant-card-body {
+  padding-top: 50px;
+}
+
+.OrderFail-basic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#OrderFail-return {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ff9000;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.OrderFail-title {
+  font-size: 16px;
+}
+
+.OrderFail-header .arrow {
+  position: absolute;
+  top: 8px;
+  /* transform: translateY(-50%); */
+  left: 8px;
+  cursor: pointer;
+}
+
+.OrderFail-order {
+  width: 85vw;
+  border-left: 7px solid #00A9AF;
+  border-top: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 2px 2px 2px #eee;
+}
+
+.OrderFail-orderheader {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed #eee;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.OrderFail-button {
+  background-color: #ff9000;
+  color: #fff;
+  border-radius: 15px;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}

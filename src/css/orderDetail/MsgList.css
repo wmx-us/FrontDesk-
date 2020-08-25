@@ -1,0 +1,40 @@
+.MsgList-body {
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.MsgList-header {
+  background-color: #00A9AF;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 50px;
+  height: 50px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.MsgList-header .arrow {
+  position: absolute;
+  top: 8px;
+  /* transform: translateY(-50%); */
+  left: 8px;
+  cursor: pointer;
+}
+
+.MsgList-title {
+  font-size: 16px;
+}
+
+#MsgList-basicInfo .ant-card-body {
+  padding-top: 46px;
+}
+
+.MsgList-info {
+  padding: 10px 5px;
+  border-bottom: 1px dashed #555;
+}

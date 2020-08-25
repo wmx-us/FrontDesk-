@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.m_title{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    line-height: 50px;
+    background-color: #34A5AB;
+}
+.m_fixed{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+}
+
+.m_title>h3{
+display: inline-block;
+    color: white;
+}
+p{
+    margin-bottom: 0!important;
+}
+
+.m_search{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+    /*background-color: white;*/
+}
+.m_content{
+
+    text-align: left;
+    margin: 0 ;
+    padding: 0 10px;
+    /*overflow: hidden;*/
+    /*overflow-y: scroll;*/
+
+}
+.m_c_content{
+    position: relative;
+    margin-top: 10px!important;
+    background-color: #e4e4e4;
+    padding: 10px;
+    border-left: 5px #34A5AB solid;
+    border-radius: 6px;
+}
+.m_c_p_s_content{
+    color: #34A5AB;
+}
+.m_c_p_content{
+    border-bottom: 1px silver solid;
+    display: flex;
+    justify-content: space-between;
+}
+.m_p_content {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+}
+.m_q_content{
+    position: absolute;
+    top: 40%;
+    right: 10px;
+}
+.m_q_content>button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #F7921E;
+    color: white;
+}
+.my_p{
+    width: 250px;
+}
+/*定义滚动条宽高及背景，宽高分别对应横竖滚动条的尺寸*/
+*::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+/*定义滚动条的轨道，内阴影及圆角*/
+*::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: rgba(230, 230, 230, 0.05);
+}
+
+*:hover::-webkit-scrollbar-track {
+    background-color: rgba(230, 230, 230, 0.5);
+}
+
+/*定义滑块，内阴影及圆角*/
+
+*::-webkit-scrollbar-thumb {
+    height: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+    background-color: rgba(216, 216, 216, 0.4);
+    transition: background-color 1s;
+}
+
+*:hover::-webkit-scrollbar-thumb {
+    background-color: rgba(216, 216, 216, 1);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(190, 190, 190, 1);
+}
+
+*::-webkit-scrollbar-thumb:active {
+    background-color: rgba(160, 160, 160, 1);
+}
+
+.m_bottom{
+    position: fixed;
+    bottom: 0;
+    z-index: 9999;
+    background-color: white;
+    height: 5px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s;
+}
+.m_bottom>button{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    border-radius: 100px;
+    border: 1px silver solid;
+    background-color: white;
+}
+.m_bottom:hover{
+    height: 200px;
+}
